@@ -7,7 +7,7 @@ public:
             if(it2 != nums.end()){
                 result.push_back(it1 - nums.begin());
                 result.push_back(it2 - nums.begin());
-                return result;
+                break;
             }
         }
         return result;
